@@ -18,7 +18,6 @@ sudo apt install ncbi-blast+
 
 # Download file to build blastdb
 scp -P 1000 jorge.munoz@bioinfo.cena.usp.br:/home/jorge.munoz/sequence.fasta.gz ~/GENOME_ANNOTATION/sequences_for_db.fa.gz
-mandarinasparadormir1188
 gzip -d ~/GENOME_ANNOTATION/sequences_for_db.fa.gz
 
 
