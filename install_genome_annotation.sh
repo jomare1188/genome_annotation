@@ -1,9 +1,9 @@
 # Make folder to genome_annotation practice
 cd && mkdir -p GENOME_ANNOTATION
 # Install prokka
-conda create -n prokka
+conda create -n prokka -y
 conda activate prokka
-conda install -c conda-forge -c bioconda -c defaults prokka
+conda install -c conda-forge -c bioconda -c defaults prokka -y
 
 # Install IGV
 wget https://data.broadinstitute.org/igv/projects/downloads/2.13/IGV_Linux_2.13.0_WithJava.zip
