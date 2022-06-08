@@ -4,6 +4,7 @@ cd && mkdir -p GENOME_ANNOTATION
 conda create -n prokka -y
 conda activate prokka
 conda install -c conda-forge -c bioconda -c defaults prokka -y
+conda deactivate
 
 # Install IGV
 wget https://data.broadinstitute.org/igv/projects/downloads/2.13/IGV_Linux_2.13.0_WithJava.zip
