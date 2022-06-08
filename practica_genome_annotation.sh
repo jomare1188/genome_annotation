@@ -1,7 +1,7 @@
 cd ~/GENOME_ANNOTATION
 cp ~/
 conda activate prokka
-prokka --outdir prokka --prefix assembly_pacbio scaffolds.fasta --cpus 2 --force
+prokka --outdir prokka --prefix assembly_pacbio assembly.fasta --cpus 2 --force
 
 # build blast db 
 mkdir -p ~/GENOME_ANNOTATION/blastDB/
